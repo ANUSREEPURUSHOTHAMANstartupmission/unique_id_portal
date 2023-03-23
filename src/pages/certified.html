@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="bg-white border-gray-200  dark:bg-gray-900 fixed w-full shadow-lg">
+        <div class="px-8 flex flex-wrap justify-between  mx-auto">
+          <a href="/" class="flex items-center">
+              <img src="../../img/logo.png" alt="Logo" class="h-14">
+          </a>
+      
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+          </button>
+      
+          <div class="hidden w-full md:block md:w-auto absolute md:relative top-16 md:top-0 " id="navbar-default">
+            <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="../pages/index.html" class="text-sm block py-2 pr-4 pl-3 hover:text-blue-700" aria-current="page">HOME</a>
+              </li>
+              <li>
+                <a href="../pages/certified.html" class="text-sm block py-2 pr-4 pl-3 hover:text-blue-700" aria-current="page">CERTIFIED STARTUPS</a>
+              </li>
+              <li>
+                <a href="../pages/analytics.html" class="text-sm block py-2 pr-4 pl-3 hover:text-blue-700" aria-current="page">ANALYTICS</a>
+              </li>
+              <li>
+                <a href="#" class="text-sm block py-2 pr-4 pl-3 hover:text-blue-700" aria-current="page">LOGIN</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="pt-14">
+        <div class="bg-hero bg-no-repeat bg-cover">
+            <div class="text-white p-2">
+               
+                <h5 class="animate-pulse md:text-4xl text-3xl font-bold mx-auto text-center">KERALA STARTUP MISSION</h5>
+               
+            </div>
+       </div>
+    </section>
+    
+    <section class=" bg-gray-100  w-full">
+        <h1 class="mx-auto mb-6 text-lg md:text-3xl text-center  font-bold pt-16">List Of Certified Startups</h1>
+
+        <!-- <h1 class="mx-auto  text-lg md:text-3xl text-center  font-bold">List Of Certified Startups</h1> -->
+        
+        <div class="flex md:flex-row flex-col">
+            
+            <div class="m-2 p-2 rounded-sm md:flex flex-col  md:w-96 hidden  shadow-lg mb-16 mt-8 ml-6 text-white font-semibold text-base" style="background-color: #588f97;">
+               
+
+
+                <label class="pb-5">Unique Id</label>
+                <div class="flex w-full mb-8 mx-auto" title="Search for Company, Sectors, Sub Sectors, Technology, Unique id">
+                   
+                    <input type="text" id="voice-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+                    <button type="button" class="inset-y-0 right-0 flex items-center pr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white"  viewBox="0 0 24 24" stroke-width="1.5" stroke="" class="w-6 h-6 hover:fill-black">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                          </svg>
+                    </button>
+                </div>
+
+
+                <label>Sector</label>
+                <div class="flex w-full mb-8 mx-auto" title="Search for Company, Sectors, Sub Sectors, Technology, Unique id">
+                    
+                    <input list="Sector" class="appearance-none list-none  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+                        <datalist id="Sector" class="appearance-none">
+                            <option disabled selected class="text-black font-semibold">Sector</option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product </option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product</option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product</option>
+                        </datalist>
+                    <button type="button" class="inset-y-0 right-0 flex items-center pr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white"  viewBox="0 0 24 24" stroke-width="1.5" stroke="" class="w-6 h-6 hover:fill-black">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                          </svg>
+                    </button>
+                </div>
+
+                <label>Sub Sector</label>
+                <div class="flex w-full mb-8 mx-auto" title="Search for Company, Sectors, Sub Sectors, Technology, Unique id">
+                    
+                    <input list="Sector" class="appearance-none list-none  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+                        <datalist id="Sector" class="appearance-none">
+                            <option disabled selected class="text-black font-semibold">Sector</option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product </option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product</option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product</option>
+                        </datalist>
+                    <button type="button" class="inset-y-0 right-0 flex items-center pr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white"  viewBox="0 0 24 24" stroke-width="1.5" stroke="" class="w-6 h-6 hover:fill-black">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                          </svg>
+                    </button>
+                </div>
+
+
+                <label>Sector</label>
+                <div class="flex w-full mb-8 mx-auto" title="Search for Company, Sectors, Sub Sectors, Technology, Unique id">
+                    
+                    <input list="Sector" class="appearance-none list-none  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+                        <datalist id="Sector" class="appearance-none">
+                            <option disabled selected class="text-black font-semibold">Sector</option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product </option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product</option>
+                            <option class="text-black font-normal">Accelerators & Incubators</option>
+                            <option class="text-black font-normal">AdTech</option>
+                            <option class="text-black font-normal">AgriTech</option>
+                            <option class="text-black font-normal">Alcoholic Beverage Product</option>
+                        </datalist>
+                    <button type="button" class="inset-y-0 right-0 flex items-center pr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="white"  viewBox="0 0 24 24" stroke-width="1.5" stroke="" class="w-6 h-6 hover:fill-black">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                          </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:w-6/7 w-full p-6 pt-4">
+
+                <div class="flex w-4/5 mb-8 mx-auto md:hidden">
+                    
+                    <input type="text" id="voice-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full  p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 placeholder:italic " required placeholder="Search for Company, Sectors, Sub Sectors, Technology, Unique id">
+                    <button type="button" class="inset-y-0 right-0 flex items-center pr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="gray"  viewBox="0 0 24 24" stroke-width="1.5" stroke="" class="w-6 h-6 hover:fill-black">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                          </svg>
+                    </button>
+                </div>
+
+
+                <div class="flex-row">
+                    <div class="flex md:flex-row flex-col   mb-6 h-auto">
+                        <a href="../pages/single.html" class="">
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 md:ml-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/12804adba3e51f0c26c472c60f3802ae.png">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                        <a href="../pages/single1.html">
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/65de1fac5727287ad323be33225e309c.jpg">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>  
+                        </a>
+                        <a>
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2 mx-auto">
+                                    <img src="../../img/64b02085fe59109706c79fc2597a2181 (1).png">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        </a>  
+                    </div>
+                </div>
+
+
+                <div class="flex-row">
+                    <div class="flex md:flex-row flex-col   mb-6 h-auto">
+                        <a>
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 md:ml-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/55399a677f667b4cdd76f4c03ec89b60.jpg">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>  
+                        </a>
+                        <a>
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/226129d7bbfaaea24d734033da374097.jpg">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>  
+                        </a>
+                        <a>
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/7622989d80e46ea0f81c9855fcadce4e.png">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>  
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="flex-row">
+                    <div class="flex md:flex-row flex-col   mb-6 h-auto">
+                        <a>
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 md:ml-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/e7308c606d77e72581a59cd247e09ba3 (1).jpg">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        </a>  
+                        <a>
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/Startup (1).jpg">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>  
+                        </a>
+                        <a>
+                        <div class="cursor-pointer md:flex-row flex-col md:w-1/3 w-full mr-5 mt-4 bg-white shadow-lg h-52 border-2 hover:scale-110">
+                            <div class="flex flex-row space-x-3 h-3/4">
+                                <div class="w-1/3  p-2">
+                                    <img src="../../img/66dfbfa2e114d4fd2c485a5d5cbbae87 (1).jpg">
+                                </div>
+                                <div class="w-2/3 mx-auto">
+                                    <h1 class="pt-5 text-blue-900 font-bold text-left p-2">AANVIN DIGITAL SERVICES AND SOLUTIONS PRIVATE LIMITED
+                                    </h1>
+                                    <p class="p-3 pt-4 font-semibold text-xs">Company Registration Type</p>
+
+                                </div>
+                            </div>
+                            <div class="flex flex-row space-x-3 h-12 pt-2">
+                                <div class="w-12  p-3">
+                                    <img src="../../img/mail (3).png">
+                                </div>
+                                <div class="w-full pt-3 pl-0">
+                                    <a href="" class="text-xs">admin@adsslimited.com</a>
+                                </div>
+                            </div>
+                        </div>  
+                        </a>
+                    </div>
+                </div>
+                    
+
+            </div>
+
+            
+            
+        </div>
+
+        
+        
+        
+        
+       
+    </section>
+
+    <section class="h-60 bg-blue-900 ">
+        <div class="flex flex-col md:flex-row">
+            <img src="../../img/logo-white.svg" class="items-start p-12 pl-36">
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+
+<script>
+    var button = document.querySelector('[data-collapse-toggle="navbar-default"]')
+    var target = button.getAttribute('data-collapse-toggle');
+  
+    button.addEventListener('click', function(){
+      document.getElementById(target).classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+<script src="../../js/script.js"></script>
+</html>

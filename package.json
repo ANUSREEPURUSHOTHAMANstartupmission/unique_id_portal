@@ -1,0 +1,19 @@
+{
+  "name": "ksumuniquekey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/style.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./src/css/style.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.4"
+  }
+}
