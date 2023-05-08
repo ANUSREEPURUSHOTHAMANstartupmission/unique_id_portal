@@ -3,6 +3,30 @@
 @tailwind utilities;
 
 
+.scroll_s{
+  overflow: auto;
+  scrollbar-width:thin;
+  scrollbar-color: rgb(75, 128, 153);
+}
+
+/* Chrome, Edge, and Safari */
+.scroll_s::-webkit-scrollbar {
+  width: 8px;
+  
+}
+
+.scroll_s::-webkit-scrollbar-track {
+  background:white;
+  border-radius: 1px;
+}
+
+.scroll_s::-webkit-scrollbar-thumb {
+  background-color:white;
+  border-radius: 14px;
+  height: 20px;
+  border: 10px solid rgb(75, 128, 153);
+}
+
 .panel {
     padding: 0 18px;
     display: none;
